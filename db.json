@@ -54,5 +54,545 @@
       "status": "active",
       "id": 9
     }
-  ]
+  ],
+  "menues": [
+    {
+        "menuOptionId": "00002",
+        "menuOptionDesc": "Reportes de resultados",
+        "menuOptionLabel": "Reporte de Resultados",
+        "menuIconName": "fa fa-sliders",
+        "menuSecuritySet": null,
+        "menuOrder": 1,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00002",
+                "menuOptionId": "00002",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-th-large",
+                "menuItemQueryId": "ConsultaNombreProyecto",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 1054,
+                "menuItemLabel": "Consulta Por Proyectos",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Resultados"
+            },
+            {
+                "menuItemId": "00059",
+                "menuOptionId": "00002",
+                "menuItemOrder": "15",
+                "menuItemIcon": "fa fa-envelope",
+                "menuItemQueryId": "ReporteBiotecnologiaHidrobiologicos",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 454,
+                "menuItemLabel": "Biotecnología Datos Hidrobiológicos",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Resultados"
+            },
+            {
+                "menuItemId": "00004",
+                "menuOptionId": "00002",
+                "menuItemOrder": "3",
+                "menuItemIcon": "fa fa-flask",
+                "menuItemQueryId": "Sample Consulta",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 6774,
+                "menuItemLabel": "Consulta Por Muestra",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Resultados"
+            },
+            {
+                "menuItemId": "00009",
+                "menuOptionId": "00002",
+                "menuItemOrder": "8",
+                "menuItemIcon": "fa fa-line-chart",
+                "menuItemQueryId": "queryAguasDeProduccion",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 300,
+                "menuItemLabel": "Consultas Aguas De Producción",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Resultados"
+            },
+            {
+                "menuItemId": "00028",
+                "menuOptionId": "00002",
+                "menuItemOrder": "9",
+                "menuItemIcon": "fa fa-flask",
+                "menuItemQueryId": "ConsultaAssays2",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 116,
+                "menuItemLabel": "Consulta de ASSAYS",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Resultados"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00003",
+        "menuOptionDesc": "Reportes de productividad de laboratorios",
+        "menuOptionLabel": "Reporte de Productividad",
+        "menuIconName": "glyphicon glyphicon-cog",
+        "menuSecuritySet": null,
+        "menuOrder": 2,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00011",
+                "menuOptionId": "00003",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-building",
+                "menuItemQueryId": "Productividad por Laboratorio",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 921,
+                "menuItemLabel": "Productividad por Laboratorio",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Productividad"
+            },
+            {
+                "menuItemId": "00012",
+                "menuOptionId": "00003",
+                "menuItemOrder": "2",
+                "menuItemIcon": "fa fa-users",
+                "menuItemQueryId": "Reporte Productividad Por Analista",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 566,
+                "menuItemLabel": "Productividad por Analista",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Productividad"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00005",
+        "menuOptionDesc": "Reportes de gestión de laboratorios",
+        "menuOptionLabel": "Reporte de Gestión",
+        "menuIconName": "fa fa-industry",
+        "menuSecuritySet": null,
+        "menuOrder": 3,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00014",
+                "menuOptionId": "00005",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-table",
+                "menuItemQueryId": "Tareas pendientes por realizar",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 1922,
+                "menuItemLabel": "Tareas Pendientes Por Realizar",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            },
+            {
+                "menuItemId": "00056",
+                "menuOptionId": "00005",
+                "menuItemOrder": "2",
+                "menuItemIcon": "fa fa-calendar",
+                "menuItemQueryId": "SolicitudesVencidasOPorVencer",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 656,
+                "menuItemLabel": "Solicitudes Vencidas y en Proceso",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            },
+            {
+                "menuItemId": "00031",
+                "menuOptionId": "00005",
+                "menuItemOrder": "3",
+                "menuItemIcon": "glyphicon glyphicon-time",
+                "menuItemQueryId": "Tiempo de Respuesta",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 292,
+                "menuItemLabel": "Tiempo de Respuesta",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            },
+            {
+                "menuItemId": "00034",
+                "menuOptionId": "00005",
+                "menuItemOrder": "5",
+                "menuItemIcon": "fa fa-sliders",
+                "menuItemQueryId": "ReporteCalibracion",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 98,
+                "menuItemLabel": "Calibración",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            },
+            {
+                "menuItemId": "00035",
+                "menuOptionId": "00005",
+                "menuItemOrder": "6",
+                "menuItemIcon": "glyphicon glyphicon-time",
+                "menuItemQueryId": "Tareas pendientes por Aprobar",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 244,
+                "menuItemLabel": "Tareas Pendientes por Liberar",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            },
+            {
+                "menuItemId": "00057",
+                "menuOptionId": "00005",
+                "menuItemOrder": "7",
+                "menuItemIcon": "fa fa-check",
+                "menuItemQueryId": "Muestras Completadas",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 121,
+                "menuItemLabel": "Muestras Completas Pendientes Disposición Final",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            },
+            {
+                "menuItemId": "00099",
+                "menuOptionId": "00005",
+                "menuItemOrder": "9",
+                "menuItemIcon": "fa fa-table",
+                "menuItemQueryId": "Consecutivo Informes",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 46,
+                "menuItemLabel": "Consecutivo de Informes",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Gestión"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00011",
+        "menuOptionDesc": "Reporte de solicitudes: Enviadas y Recibidas",
+        "menuOptionLabel": "Reporte de Solicitudes",
+        "menuIconName": "fa fa-sliders",
+        "menuSecuritySet": null,
+        "menuOrder": 4,
+        "modeMenu": null,
+        "notes": "Reporte de solicitudes: Enviadas y Recibidas",
+        "submenu": [
+            {
+                "menuItemId": "00097",
+                "menuOptionId": "00011",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-table",
+                "menuItemQueryId": "Solicitudes enviadas",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 110,
+                "menuItemLabel": "Solicitudes Enviadas",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Solicitudes"
+            },
+            {
+                "menuItemId": "00098",
+                "menuOptionId": "00011",
+                "menuItemOrder": "2",
+                "menuItemIcon": "fa fa-table",
+                "menuItemQueryId": "Solicitudes recibidas",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 93,
+                "menuItemLabel": "Solicitudes Recibidas",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte de Solicitudes"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00012",
+        "menuOptionDesc": "Reporte de datos básicos del sistema",
+        "menuOptionLabel": "Reporte datos básicos",
+        "menuIconName": "fa fa-sliders",
+        "menuSecuritySet": null,
+        "menuOrder": 5,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00100",
+                "menuOptionId": "00012",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-table",
+                "menuItemQueryId": "Metodos analiticos",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 60,
+                "menuItemLabel": "Métodos Analíticos",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte datos básicos"
+            },
+            {
+                "menuItemId": "00102",
+                "menuOptionId": "00012",
+                "menuItemOrder": "2",
+                "menuItemIcon": "fa fa-table",
+                "menuItemQueryId": "Listado pozos",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 20,
+                "menuItemLabel": "Listado de Pozos",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Reporte datos básicos"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00004",
+        "menuOptionDesc": "Reporte de gráficos de tendencia",
+        "menuOptionLabel": "Gráficos",
+        "menuIconName": "fa fa-bar-chart",
+        "menuSecuritySet": null,
+        "menuOrder": 6,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00013",
+                "menuOptionId": "00004",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-pie-chart",
+                "menuItemQueryId": "Graficos",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 339,
+                "menuItemLabel": "Gráficos de Tendencia",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Gráficos"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00007",
+        "menuOptionDesc": "Reporte de petrofísicos: Básicos y Especiales",
+        "menuOptionLabel": "Petrofísica",
+        "menuIconName": "fa fa-industry",
+        "menuSecuritySet": null,
+        "menuOrder": 7,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00022",
+                "menuOptionId": "00007",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-industry",
+                "menuItemQueryId": "ReportePetrofisica",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 542,
+                "menuItemLabel": "Reporte Petrofísica",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Petrofísica"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00008",
+        "menuOptionDesc": "Reportes de Geoquímica",
+        "menuOptionLabel": "Consultas de Geoquímica",
+        "menuIconName": "fa fa-building",
+        "menuSecuritySet": null,
+        "menuOrder": 8,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00029",
+                "menuOptionId": "00008",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-flask",
+                "menuItemQueryId": "PIROLISIS",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 248,
+                "menuItemLabel": "Resultados de Pirólisis",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Consultas de Geoquímica"
+            },
+            {
+                "menuItemId": "00030",
+                "menuOptionId": "00008",
+                "menuItemOrder": "2",
+                "menuItemIcon": "glyphicon glyphicon-stats",
+                "menuItemQueryId": "SARA",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 262,
+                "menuItemLabel": "Cromatografía líquida- SARA",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Consultas de Geoquímica"
+            },
+            {
+                "menuItemId": "00032",
+                "menuOptionId": "00008",
+                "menuItemOrder": "3",
+                "menuItemIcon": "glyphicon glyphicon-tint",
+                "menuItemQueryId": "HidrocarburosLivSuelosYSedimentos",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 112,
+                "menuItemLabel": "Hidrocarburos Livianos Suelos y Sedimentos",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Consultas de Geoquímica"
+            },
+            {
+                "menuItemId": "00033",
+                "menuOptionId": "00008",
+                "menuItemOrder": "4",
+                "menuItemIcon": "fa fa-industry",
+                "menuItemQueryId": "CarbonoRocaLECO",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 179,
+                "menuItemLabel": "Análisis de Carbono en Roca (LECO)",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Consultas de Geoquímica"
+            },
+            {
+                "menuItemId": "00037",
+                "menuOptionId": "00008",
+                "menuItemOrder": "5",
+                "menuItemIcon": "fa fa-list",
+                "menuItemQueryId": "CaractGeoquimicaFast",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 252,
+                "menuItemLabel": "Caracterización Geoquímica",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Consultas de Geoquímica"
+            },
+            {
+                "menuItemId": "00045",
+                "menuOptionId": "00008",
+                "menuItemOrder": "6",
+                "menuItemIcon": "glyphicon glyphicon-globe",
+                "menuItemQueryId": "CaracterizacionCrudos",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 161,
+                "menuItemLabel": "Caracterización Crudos",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Consultas de Geoquímica"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00010",
+        "menuOptionDesc": "Reporte de productividad a terceros",
+        "menuOptionLabel": "Producción a Terceros",
+        "menuIconName": "fa fa-users",
+        "menuSecuritySet": null,
+        "menuOrder": 9,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00080",
+                "menuOptionId": "00010",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-bars",
+                "menuItemQueryId": "ProdLabNoPruebasVsTotal",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 94,
+                "menuItemLabel": "Producción a Terceros",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Producción a Terceros"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00006",
+        "menuOptionDesc": "Consulta de informes adjunto en LBV",
+        "menuOptionLabel": "Informes",
+        "menuIconName": "fa fa-flask",
+        "menuSecuritySet": null,
+        "menuOrder": 10,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00021",
+                "menuOptionId": "00006",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-envelope",
+                "menuItemQueryId": "QueryInformeRequest",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 371,
+                "menuItemLabel": "Informes",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Informes"
+            }
+        ]
+    },
+    {
+        "menuOptionId": "00014",
+        "menuOptionDesc": "Manuales de la aplicación",
+        "menuOptionLabel": "Documentación",
+        "menuIconName": "fa fa-exclamation",
+        "menuSecuritySet": null,
+        "menuOrder": 12,
+        "modeMenu": null,
+        "notes": null,
+        "submenu": [
+            {
+                "menuItemId": "00106",
+                "menuOptionId": "00014",
+                "menuItemOrder": "1",
+                "menuItemIcon": "fa fa-file-pdf-o",
+                "menuItemQueryId": "Documentacion",
+                "menuItemSecuritySet": null,
+                "menuItemType": "Query",
+                "menuItemCount": 23,
+                "menuItemLabel": "Manuales",
+                "menuItemStatus": "Y",
+                "menuItemBasedOnId": null,
+                "menuLabel": "Documentación"
+            }
+        ]
+    }
+]
 }
